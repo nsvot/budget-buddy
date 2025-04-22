@@ -69,7 +69,7 @@ export default function RootLayout({
         <DOMInspector>
           <ErrorBoundaryWrapper>
             {children}
-            <Branding />
+{/*             <Branding /> */}
           </ErrorBoundaryWrapper>
           <AnalyticsTracker siteKey="${siteKey}" />
         </DOMInspector>
